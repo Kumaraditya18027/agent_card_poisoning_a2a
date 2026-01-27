@@ -1,0 +1,70 @@
+# Only track version_3_multi_agent folder
+/*
+!/version_3_multi_agent/
+!.gitignore
+!README.md
+!LICENSE
+!main.py
+
+# Exclude other version folders
+version_1_simple/
+version_2_adk_agent/
+version_4_multi_agent_mcp/
+version_4p01_with_vision_agent/
+version_5_a2a_sdk/
+version_6_docker_vision_agent/
+version_7_mcp_a2a_master/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+*.venv
+
+# IDE and editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment files
+.env.local
+.env.*.local
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Package lock files (if using uv/pip)
+uv.lock
+
+# Python version file
+.python-version
+
+# PCAP and network files (binary data, not needed in repo)
+*.pcap
+*.pcapng
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+keylogfile.txt
+
+# OS files
+.DS_Store
+Thumbs.db
