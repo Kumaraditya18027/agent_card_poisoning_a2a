@@ -1,10 +1,19 @@
-# Only track version_3_multi_agent folder
+# Only track version_3_multi_agent folder and specific root files
 /*
-!/version_3_multi_agent/
 !.gitignore
 !README.md
 !LICENSE
 !main.py
+!pyproject.toml
+!.env
+!models/
+!server/
+!client/
+!app/
+!agents/
+!utilities/
+!captures/
+!/version_3_multi_agent/
 
 # Exclude other version folders
 version_1_simple/
