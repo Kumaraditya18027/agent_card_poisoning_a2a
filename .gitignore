@@ -5,6 +5,7 @@
 !LICENSE
 !main.py
 !pyproject.toml
+!requirements.txt
 !.env
 !models/
 !server/

@@ -1,4 +1,4 @@
-# 🤖 TellTimeAgent & Multi-Agent Demo – A2A with Google ADK
+# TellTimeAgent & Multi-Agent Demo – A2A with Google ADK
 
 Welcome to **TellTimeAgent** and the **Multi-Agent** demo — a minimal Agent2Agent (A2A) implementation using Google's [Agent Development Kit (ADK)](https://github.com/google/agent-development-kit).
 
@@ -11,12 +11,12 @@ All of them work together seamlessly via A2A discovery and JSON-RPC.
 
 ---
 
-## 📦 Project Structure
+## Project Structure
 
 ```bash
 version_3_multi_agent/
 ├── .env                         # Your GOOGLE_API_KEY (not committed)
-├── pyproject.toml              # Dependency config
+├── requirements.txt            # Dependency config
 ├── README.md                   # You are reading it!
 ├── app/
 │   └── cmd/
@@ -44,7 +44,7 @@ version_3_multi_agent/
 
 ---
 
-## 🛠️ Setup
+## Setup
 
 1. **Clone & navigate**
 
@@ -62,16 +62,8 @@ version_3_multi_agent/
 
 3. **Install dependencies**
 
-    Using [`uv`](https://github.com/astral-sh/uv):
-
     ```bash
-    uv pip install .
-    ```
-
-    Or with pip directly:
-
-    ```bash
-    pip install .
+    pip install -r requirements.txt
     ```
 
 4. **Set your API key**
@@ -83,7 +75,7 @@ version_3_multi_agent/
 
 ---
 
-## 🎬 Demo Walkthrough
+## Demo Walkthrough
 
 **Start the TellTimeAgent**
 ```bash
@@ -119,7 +111,7 @@ Agent says: Good afternoon, friend! The golden sun dips low...
 
 ---
 
-## 🔍 How It Works
+## How It Works
 
 1. **Discovery**: OrchestratorAgent reads `utilities/agent_registry.json`, fetches each agent’s `/​.well-known/agent.json`.
 2. **Routing**: Based on intent, the Orchestrator’s LLM calls its tools:
@@ -132,7 +124,7 @@ Agent says: Good afternoon, friend! The golden sun dips low...
 
 ---
 
-## 📖 Learn More
+## Learn More
 
 - A2A GitHub: https://github.com/google/A2A  
 - Google ADK: https://github.com/google/agent-development-kit
