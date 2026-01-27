@@ -4,8 +4,7 @@
 1. **Clone & navigate**
 
     ```bash
-    git clone https://github.com/theailanguage/a2a_samples.git
-    cd a2a_samples/version_3_multi_agent
+    git clone https://bitbucket.it.keysight.com/scm/~kumaadit/google-a2a-strike-poc.git 
     ```
 
 2. **Create & activate a venv**
