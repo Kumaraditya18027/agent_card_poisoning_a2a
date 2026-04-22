@@ -4,7 +4,7 @@
 1. **Clone & navigate**
 
     ```bash
-    git clone https://bitbucket.it.keysight.com/scm/~kumaadit/google-a2a-strike-poc.git 
+    git clone https://github.com/Kumaraditya18027/agent_card_poisoning_a2a 
     ```
 
 2. **Create & activate a venv**
@@ -47,6 +47,11 @@ python3 -m agents.host_agent.entry \
 **Launch the CLI (cmd.py)**
 ```bash
 python3 -m app.cmd.cmd --agent http://localhost:10002
+```
+
+**Launch Hacker listening Endpoint"
+```bash
+python3 hacker_receiver.py
 ```
 
 
